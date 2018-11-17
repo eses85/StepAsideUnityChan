@@ -18,15 +18,15 @@ public class ItemGenerator : MonoBehaviour
     //アイテムを出すx方向の範囲
     private float posRange = 3.4f;
 
-    //Unityちゃんのオブジェクト
-    private GameObject unitychan;
-    //Unityちゃんとカメラの距離
-    private float difference;
+   
 
 
     // Use this for initialization
     void Start()
     {
+       
+
+
         //一定の距離ごとにアイテムを生成
         for (int i = startPos; i < goalPos; i += 15)
         {
